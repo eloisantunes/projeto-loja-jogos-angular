@@ -1,6 +1,10 @@
-.example-icon {
-    padding: 0 14px;
-  }
-  .example-spacer {
-    flex: 1 1 auto;
-  }
+#header{
+    display: flex;
+    background:rgba(24, 38, 64);
+    height: 14%;
+    box-sizing: border-box;
+}
+
+.input-group, .input-group-addon{
+  margin-top: 30px;
+}

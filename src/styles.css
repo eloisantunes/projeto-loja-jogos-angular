@@ -1,14 +1,2 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-h1{
-    background-color: rgb(13, 13, 59);
-    color: whitesmoke;
-    padding: 1%;
-}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
