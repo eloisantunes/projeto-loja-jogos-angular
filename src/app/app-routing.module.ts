@@ -9,10 +9,6 @@ const routes: Routes = [
   path: '',
   component:  HeaderComponent
   },
-  {
-  path: '',
-  component:  MenuComponent
-  }
 ];
 
 @NgModule({
