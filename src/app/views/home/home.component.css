@@ -1,0 +1,11 @@
+#header{
+    display: flex;
+    background:rgba(24, 38, 64);
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 100px;
+}
