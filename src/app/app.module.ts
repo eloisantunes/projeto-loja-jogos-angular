@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './views/header/header.component';
+import { MenuComponent } from './views/menu/menu.component'; 
 import { CarroselComponent } from './views/carrosel/carrosel.component';
 import { RodapeComponent } from './views/rodape/rodape.component';
 import { BannerComponent } from './views/banner/banner.component';
 import {MatMenuModule} from '@angular/material/menu';
-import {MatIconModule} from '@angular/material/icon'; 
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     CarroselComponent,
     RodapeComponent,
-    BannerComponent
+    BannerComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
